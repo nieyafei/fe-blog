@@ -1,17 +1,24 @@
 ---
 home: true
 heroImage: /image/logo.png
-heroText: CODEQUN
-tagline: 前端知识总结
+heroText: 前端蜗牛
+tagline: 前端知识总结收集
 actionText: 我的博客 →
 actionLink: http://codehtml.cn/
-features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
 footer: MIT Licensed | Copyright © 2019
 ---
-# CODEQUN的BLOG
+<div class="features">
+  <a class="feature" href="knowledge/">
+    <h2>知识资料收集</h2>
+    <p>主要收集各大网站优秀技术文章</p>
+    <p>每天进步一点点</p>
+  </a>
+  <a class="feature"  href="interview/">
+    <h2>面试题收集</h2>
+    <p>主要收集各大网站优秀面试文章，以及整理面试题集合</p>
+  </a>
+  <a class="feature"  href="">
+    <h2>各位前端大牛</h2>
+    <p>前端的路上越走越远，你不得不知道的一些前端大牛们</p>
+  </a>
+</div>

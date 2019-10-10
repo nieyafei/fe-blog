@@ -10,6 +10,11 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
     "vuepress": "^1.1.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.6.4"
   }
 }
