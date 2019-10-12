@@ -21,6 +21,8 @@
 * [JavaScript正则表达式迷你书](https://github.com/qdlaoyao/js-regex-mini-book)
 * [冴羽JavaScript系列](https://github.com/mqyqingfeng/Blog)
 * [如何写出一个惊艳面试官的深拷贝?](https://juejin.im/post/5d6aa4f96fb9a06b112ad5b1)
+* [JavaScript 浮点数陷阱及解法](https://github.com/camsong/blog/issues/9)
+* [在 JavaScript ES6+ 中从零开始学习函数式编程&组合式软件编写系列译文](https://juejin.im/post/5a0275406fb9a04506710bbc)
 
 ## React
 
@@ -59,6 +61,8 @@
 * [if 我是前端团队 Leader，怎么制定前端协作规范?](https://juejin.im/post/5d3a7134f265da1b5d57f1ed)
 * [大型项目前端架构浅谈（8000字原创）](https://juejin.im/post/5cea1f705188250640005472)
 * [「前端进阶」高性能渲染十万条数据(时间分片)](https://juejin.im/post/5d76f469f265da039a28aff7)
+* [精读前后端渲染之争](https://github.com/camsong/blog/issues/8)
+* [网页图片加载优化方案](https://zhuanlan.zhihu.com/p/33370207)
 
 ## Flutter
 
