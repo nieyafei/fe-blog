@@ -16,12 +16,12 @@ footer: MIT Licensed | Copyright © 2019
     <h2>面试题收集</h2>
     <p>主要收集各大网站优秀面试文章，以及整理面试题集合</p>
   </a>
-  <a class="feature"  href="">
-    <h2>前端大牛们</h2>
+  <a class="feature"  href="website/">
+    <h2>推荐公众号、网站</h2>
     <p>前端的路上越走越远，你不得不知道的一些前端大牛们</p>
   </a>
   <a class="feature"  href="">
-    <h2>优秀公众号、网站（暂未整理完）</h2>
+    <h2>前端大牛们</h2>
     <p>前端的路上越走越远，你不得不知道的一些前端大牛们</p>
   </a>
 </div>

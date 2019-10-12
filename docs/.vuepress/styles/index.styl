@@ -8,14 +8,51 @@
 .features-tag
   display: flex;
   flex-wrap: wrap;
-  padding: 20px 0
+  padding: 20px 0;
+  &.feat-three{
+    .feature{
+      width: 32% !important;
+      padding: 10px 0;
+      &:nth-child(3n+2){
+        margin: 0 2%
+      }
+      .cons{
+        background: #f9f9f8;
+        color: #fff;
+        padding: 15px;
+        border-radius: 10px;
+        &:hover{
+          background: #e1ecfd;
+        }
+        h1{margin:0;color: #3eaf7c;}
+        h2, p{
+          color: #999;
+          font-size: 0.8rem;
+          margin 10px 0 0 0;
+        }
+        p{
+          height 2.5rem;
+          overflow: hidden;
+        }
+      }
+    }
+  }
   .feature
     padding: 10px;
-    flex-basis: 20% !important;
+    width: 25% !important;
+    box-sizing: border-box;
+    flex-grow: inherit !important;
+    flex-basis: auto !important;
+    max-width: 100% !important;
     h1{
       font-size: 1.2rem;
     }
     p{
       font-size: 0.9rem;
     }
-  
+
+@media (max-width: 719px){
+  .features-tag{
+    display: block;
+  }
+}
