@@ -67,6 +67,13 @@ heroText: 优秀公众号网站
       <p>前端娱乐圈，沉下心学习才能提高技术，好好玩</p>
     </div>
   </a>
+  <a class="feature" href="http://mp.weixin.qq.com/profile?src=3&timestamp=1570875081&ver=1&signature=6EXlNyQDe6svusx7NotXc3Ao-2yiyCosyitExm369*WW0buQ3Gxdf1jl3CO8hjCK5U7bNuOF*rbuOkOZKMct8Q==" target="_blank">
+    <div class="cons">
+      <h1>前端之巅</h1>
+      <h2>微信号：frontshow</h2>
+      <p>InfoQ大前端技术社群：囊括前端、移动、Node全栈一线技术，紧跟业界发展步伐。</p>
+    </div>
+  </a>
 </div>
 
 <style>
