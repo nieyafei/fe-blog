@@ -20,10 +20,10 @@ footer: MIT Licensed | Copyright © 2019
     <h2>推荐公众号、网站</h2>
     <p>前端的路上越走越远，你不得不知道的一些前端大牛们</p>
   </a>
-  <a class="feature"  href="">
+  <!-- <a class="feature"  href="">
     <h2>前端大牛们</h2>
     <p>前端的路上越走越远，你不得不知道的一些前端大牛们</p>
-  </a>
+  </a> -->
 </div>
 <div class="tab-title">
   GitHub排名统计

@@ -60,6 +60,13 @@ heroText: 优秀公众号网站
       <p>面向JavaScript爱好人员提供：前端最新资讯、原创内容、JavaScript、HTML5、Ajax、jQuery、Node.js等一系列教程和经验分享。</p>
     </div>
   </a>
+  <a class="feature" href="http://mp.weixin.qq.com/profile?src=3&timestamp=1570874263&ver=1&signature=S3ZIJE9oHY6pcttoOrZceXTfMbcTOS2AquPIi84gA-36bezNWkQPr*xpk2hjEvolQZUdFkFzVKHZF*1LAwd9wg==" target="_blank">
+    <div class="cons">
+      <h1>前端真好玩</h1>
+      <h2>微信号：frontendcento</h2>
+      <p>前端娱乐圈，沉下心学习才能提高技术，好好玩</p>
+    </div>
+  </a>
 </div>
 
 <style>
