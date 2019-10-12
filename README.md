@@ -1,7 +1,7 @@
 # 前端蜗牛
 前端知识资料收集总结、面试题收集
 
-[!image](assets/1.png)
+![image](assets/1.png)
 
 本地开发启动
 > yarn docs:dev
