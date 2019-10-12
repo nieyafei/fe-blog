@@ -1,7 +1,8 @@
 # 前端蜗牛
-前端知识资料收集总结、面试题收集
 
-![image](assets/1.png)
+<a href="http://codehtml.cn/fe-blog/">
+  <img src="assets/1.png" alt="" width="100%" />
+</a>
 
 本地开发启动
 > yarn docs:dev
