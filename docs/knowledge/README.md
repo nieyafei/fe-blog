@@ -25,6 +25,7 @@
 * [JavaScript 浮点数陷阱及解法](https://github.com/camsong/blog/issues/9)
 * [在 JavaScript ES6+ 中从零开始学习函数式编程&组合式软件编写系列译文](https://juejin.im/post/5a0275406fb9a04506710bbc)
 * [50行代码的MVVM，感受闭包的艺术](https://juejin.im/post/5b1fa77451882513ea5cc2ca)
+* [嘿，不要给 async 函数写那么多 try/catch 了](https://juejin.im/post/5d25b39bf265da1bb67a4176)
 
 ## React
 
@@ -67,6 +68,7 @@
 * [网页图片加载优化方案](https://zhuanlan.zhihu.com/p/33370207)
 * [面试带你飞：这是一份全面的 计算机网络基础 总结攻略](https://juejin.im/post/5ad7e6c35188252ebd06acfa)
 * [经典面试题：从 URL 输入到页面展现到底发生什么？](https://zhuanlan.zhihu.com/p/57895541)
+* [【译】Google 官方文章——如何去做code review](https://juejin.im/post/5d80c27cf265da03e61b45c7)
 
 ## Flutter
 

@@ -46,6 +46,25 @@ footer: MIT Licensed | Copyright © 2019
     <p>中国和全球用户排名，全球仓库 Star 最多排名</p>
   </a>
 </div>
+
+<div class="tab-title">
+  技术类大会
+</div>
+<div class="features-tag">
+  <a class="feature" href="https://jsconf.com/" target="_blank">
+    <h1>JSConf</h1>
+  </a>
+  <a class="feature"  href="https://events.google.com/io/"  target="_blank">
+    <h1>Google IO</h1>
+  </a>
+  <a class="feature"  href="http://d2forum.alibaba-inc.com/"  target="_blank">
+    <h1>D2</h1>
+  </a>
+  <a class="feature"  href="https://www.infoq.com/qcon/"  target="_blank">
+    <h1>QCon</h1>
+  </a>
+</div>
+
 <style>
   .features-tag{
     padding: 0;
