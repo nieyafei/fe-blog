@@ -14,6 +14,7 @@
 
 ## Javascript
 
+* [JavaScript工具函数大全](https://juejin.im/post/5da1a04ae51d45783d6122bf#comment)
 * [1.5万字概括ES6全部特性(看图就能记下，值得收藏)](https://juejin.im/post/5d9bf530518825427b27639d)
 * [这一次，彻底弄懂 JavaScript 执行机制](https://juejin.im/post/59e85eebf265da430d571f89)
 * [一个合格的中级前端工程师需要掌握的 28 个 JavaScript 技巧](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
