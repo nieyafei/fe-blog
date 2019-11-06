@@ -14,6 +14,8 @@
 
 ## Javascript
 
+* [原生JS灵魂之问, 请问你能接得住几个？(上)](https://juejin.im/post/5dac5d82e51d45249850cd20)
+* [原生JS灵魂之问，检验自己是否真的熟悉JavaScript？(中)](https://juejin.im/post/5dbebbfa51882524c507fddb)
 * [JavaScript工具函数大全](https://juejin.im/post/5da1a04ae51d45783d6122bf#comment)
 * [1.5万字概括ES6全部特性(看图就能记下，值得收藏)](https://juejin.im/post/5d9bf530518825427b27639d)
 * [这一次，彻底弄懂 JavaScript 执行机制](https://juejin.im/post/59e85eebf265da430d571f89)
@@ -60,6 +62,7 @@
 
 ## 综合基础
 
+* [9个项目助你在2020年成为前端大神！](https://juejin.im/post/5dc0c744e51d456e7e41f5ac)
 * [一名【合格】前端工程师的自检清单](https://juejin.im/post/5cc1da82f265da036023b628)
 * [前端常用插件、工具类库汇总，不要重复造轮子啦！！！](https://juejin.im/post/5ba7d5dd5188255c6140cc9d)
 * [if 我是前端团队 Leader，怎么制定前端协作规范?](https://juejin.im/post/5d3a7134f265da1b5d57f1ed)
