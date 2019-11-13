@@ -14,6 +14,7 @@
 
 ## Javascript
 
+* [各种源码实现，你想要的这里都有](https://juejin.im/post/5dc3894051882517a652dbd7)
 * [原生JS灵魂之问, 请问你能接得住几个？(上)](https://juejin.im/post/5dac5d82e51d45249850cd20)
 * [原生JS灵魂之问，检验自己是否真的熟悉JavaScript？(中)](https://juejin.im/post/5dbebbfa51882524c507fddb)
 * [JavaScript工具函数大全](https://juejin.im/post/5da1a04ae51d45783d6122bf#comment)
@@ -62,6 +63,7 @@
 
 ## 综合基础
 
+* [可能是最全的 “文本溢出截断省略” 方案合集](https://juejin.im/post/5dc15b35f265da4d432a3d10)
 * [9个项目助你在2020年成为前端大神！](https://juejin.im/post/5dc0c744e51d456e7e41f5ac)
 * [一名【合格】前端工程师的自检清单](https://juejin.im/post/5cc1da82f265da036023b628)
 * [前端常用插件、工具类库汇总，不要重复造轮子啦！！！](https://juejin.im/post/5ba7d5dd5188255c6140cc9d)
@@ -76,7 +78,7 @@
 
 ## Flutter
 
-* []()
+* [Flutter完整开发实战详解(一、Dart语言和Flutter基础) | 掘金技术征文](https://juejin.im/post/5b631d326fb9a04fce524db2)
 
 ## 微前端
 
