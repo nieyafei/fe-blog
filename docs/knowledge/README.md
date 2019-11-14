@@ -1,3 +1,6 @@
+---
+sidebar: auto
+---
 # 前端知识资料文章
 
 ## HTML
