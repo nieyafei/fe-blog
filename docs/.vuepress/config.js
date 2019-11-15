@@ -20,6 +20,7 @@ module.exports = {
       '/javascript/': javascript
     },
     nav: [
+      { text: '前端词汇', link: '/compre/word/' },
       { text: 'LeetCode', link: '/leetcode/' },
       { 
         text: '代码片段', 
