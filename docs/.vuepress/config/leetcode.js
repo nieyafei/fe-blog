@@ -4,15 +4,16 @@
  */
 
 const simple = [
-  '/leetcode/simple/简单.md'
+  '/leetcode/simple/删除链表中的节点.md',
+  '/leetcode/simple/二叉树的最大深度.md'
 ]
 
 const medium = [
-  '/leetcode/medium/中等.md'
+  '/leetcode/medium/螺旋矩阵II.md'
 ]
 
 const difficulty = [
-  '/leetcode/difficulty/困难.md'
+  '/leetcode/difficulty/合并K个排序链表.md'
 ]
 
 module.exports = {

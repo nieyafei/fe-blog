@@ -45,7 +45,7 @@ module.exports = {
           { text: 'Html、Css', link: '/htmlcss/' },
           { text: 'Javascript', link: '/javascript/' },
           { text: 'React', link: '/react/' },
-          { text: 'Vue', link: '/leetcode/' }
+          { text: 'Vue', link: '/vue/' }
         ]
       },
       { text: 'Github', link: 'https://github.com/nieyafei/fe-blog' },
