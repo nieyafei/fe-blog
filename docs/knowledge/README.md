@@ -87,3 +87,5 @@ sidebar: auto
 
 * [前端微服务化解决方案2 - Single-SPA](https://alili.tech/archive/11052bf4/)
 * [每日优鲜供应链前端团队微前端改造](https://juejin.im/post/5d7f702ce51d4561f777e258)
+* [single-spa](https://single-spa.js.org/)
+* [qiankun（乾坤）](https://github.com/umijs/qiankun)
