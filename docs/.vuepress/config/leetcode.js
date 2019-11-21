@@ -5,7 +5,8 @@
 
 const simple = [
   '/leetcode/simple/删除链表中的节点.md',
-  '/leetcode/simple/二叉树的最大深度.md'
+  '/leetcode/simple/二叉树的最大深度.md',
+  '/leetcode/simple/非递减数列.md'
 ]
 
 const medium = [
