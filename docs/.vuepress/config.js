@@ -68,7 +68,20 @@ module.exports = {
     '@vuepress/back-to-top': true,
     '@vuepress/google-analytics': {
       'ga': "UA-152887516-1"
-    }
+    },
+    'vuepress-plugin-zooming': {
+      selector: '.theme-container img',
+      delay: 1000,
+      options: {
+        bgColor: 'black',
+        zIndex: 10000,
+      },
+    },
+    'vuepress-plugin-code-copy': {
+      color: '#3eaf7c',
+      successText: '复制成功'
+    },
+    'demo-code': true
   }
 }
 
