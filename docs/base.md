@@ -8,4 +8,9 @@ export default {
     },
 }
 </script>
+<style>
+button {
+    color: blue;
+}
+</style>
 :::

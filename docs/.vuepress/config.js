@@ -48,6 +48,12 @@ module.exports = {
           { text: 'Vue', link: '/vue/' }
         ]
       },
+      { 
+        text: '快链', 
+        items: [
+          { text: '前端Demo特效收集', link: 'http://codehtml.cn/front-end-demo/#/' }
+        ]
+      },
       { text: 'Github', link: 'https://github.com/nieyafei/fe-blog' },
     ],
     sidebarDepth: 2, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
