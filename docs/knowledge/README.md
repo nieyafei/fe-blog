@@ -17,6 +17,7 @@ sidebar: auto
 
 ## Javascript
 
+* [你不知道的 JSON.stringify() 的威力](https://juejin.im/post/5decf09de51d45584d238319)
 * [JS 原生面经从初级到高级](https://juejin.im/post/5daeefc8e51d4524f007fb15)
 * [各种源码实现，你想要的这里都有](https://juejin.im/post/5dc3894051882517a652dbd7)
 * [原生JS灵魂之问, 请问你能接得住几个？(上)](https://juejin.im/post/5dac5d82e51d45249850cd20)
