@@ -17,6 +17,7 @@ sidebar: auto
 
 ## Javascript
 
+* [用可视化的方式，学习 JavaScript 引擎；文章所有的图都做的非常棒](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif)
 * [你不知道的 JSON.stringify() 的威力](https://juejin.im/post/5decf09de51d45584d238319)
 * [JS 原生面经从初级到高级](https://juejin.im/post/5daeefc8e51d4524f007fb15)
 * [各种源码实现，你想要的这里都有](https://juejin.im/post/5dc3894051882517a652dbd7)
@@ -69,6 +70,7 @@ sidebar: auto
 
 ## 综合基础
 
+* [这几个库让你交互动效满满，告别'静态'时代](https://juejin.im/post/5decdb00518825124e13d87b)
 * [可能是最全的 “文本溢出截断省略” 方案合集](https://juejin.im/post/5dc15b35f265da4d432a3d10)
 * [9个项目助你在2020年成为前端大神！](https://juejin.im/post/5dc0c744e51d456e7e41f5ac)
 * [一名【合格】前端工程师的自检清单](https://juejin.im/post/5cc1da82f265da036023b628)
