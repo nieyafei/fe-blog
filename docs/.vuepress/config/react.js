@@ -4,4 +4,11 @@
  */
 
 module.exports = [
+  '/react/ReactElement.md',
+  '/react/Component.md',
+  '/react/PureComponent.md',
+  '/react/createRef.md',
+  '/react/forwardRef.md',
+  '/react/Context.md',
+  '/react/ConcurrentMode.md'
 ]

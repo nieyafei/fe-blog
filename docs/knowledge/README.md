@@ -70,6 +70,7 @@ sidebar: auto
 
 ## 综合基础
 
+* [前端工程化 - 剖析npm的包管理机制](https://juejin.im/post/5df789066fb9a0161f30580c)
 * [这几个库让你交互动效满满，告别'静态'时代](https://juejin.im/post/5decdb00518825124e13d87b)
 * [可能是最全的 “文本溢出截断省略” 方案合集](https://juejin.im/post/5dc15b35f265da4d432a3d10)
 * [9个项目助你在2020年成为前端大神！](https://juejin.im/post/5dc0c744e51d456e7e41f5ac)
