@@ -3,11 +3,23 @@ sidebar: auto
 ---
 # 前端知识资料文章
 
-## HTML
+## 2020年度
+
+### CSS
+
+* [你可能不是那么了解的 CSS Background](https://juejin.im/post/5e1adb826fb9a02fc160a2c1)
+
+### 综合
+
+* [字节跳动面试官：请你实现一个大文件上传和断点续传](https://juejin.im/post/5dff8a26e51d4558105420ed)
+
+## 2019年度
+
+### HTML
 
 * [html5 移动端兼容性速查](http://mobilehtml5.org/)
 
-## CSS
+### CSS
 
 * [你未必知道的49个CSS知识点](https://juejin.im/post/5d3eca78e51d4561cb5dde12)
 * [你未必知道的CSS知识点（第二季）](https://juejin.im/post/5d9ec8b0518825651b1dffa3)
@@ -15,7 +27,7 @@ sidebar: auto
 * [iCSS - 不止于 CSS](https://github.com/chokcoco/iCSS)
 * [学习 BFC (Block Formatting Context)](https://juejin.im/post/59b73d5bf265da064618731d)
 
-## Javascript
+### Javascript
 
 * [用可视化的方式，学习 JavaScript 引擎；文章所有的图都做的非常棒](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif)
 * [你不知道的 JSON.stringify() 的威力](https://juejin.im/post/5decf09de51d45584d238319)
@@ -38,37 +50,37 @@ sidebar: auto
 * [50行代码的MVVM，感受闭包的艺术](https://juejin.im/post/5b1fa77451882513ea5cc2ca)
 * [嘿，不要给 async 函数写那么多 try/catch 了](https://juejin.im/post/5d25b39bf265da1bb67a4176)
 
-## React
+### React
 
 * [React 源码剖析系列 － 不可思议的 react diff](https://zhuanlan.zhihu.com/p/20346379)
 
-## Vue
+### Vue
 
 * [vue中Axios的封装和API接口的管理](https://juejin.im/post/5b55c118f265da0f6f1aa354)
 * [Vue项目里戳中你痛点的问题及解决办法](https://juejin.im/post/5b174de8f265da6e410e0b4e)
 * [Vue 开发必须知道的 36 个技巧【近1W字】](https://juejin.im/post/5d9d386fe51d45784d3f8637)
 
-## Node
+### Node
 
 * [技术栈：为什么 Node 是小菜前端团队的核心技术栈](https://juejin.im/post/5ca321f76fb9a05e5d09bb8a)
 * [深入理解Node.js 中的进程与线程](https://juejin.im/post/5d43017be51d4561f40adcf9)
 
-## 设计模式
+### 设计模式
 
 * [图说设计模式](https://github.com/me115/design_patterns)
 
-## 数据结构与算法
+### 数据结构与算法
 
 * [前端该如何准备数据结构和算法？](https://juejin.im/post/5d5b307b5188253da24d3cd1)
 * [漫画：什么是红黑树？](https://juejin.im/post/5a27c6946fb9a04509096248)
 
-## 小程序
+### 小程序
 
-### 微信小程序
+#### 微信小程序
 
 * [近两万字小程序攻略发布了](https://juejin.im/post/5cc1da82f265da036023b628)
 
-## 综合基础
+### 综合基础
 
 * [前端工程化 - 剖析npm的包管理机制](https://juejin.im/post/5df789066fb9a0161f30580c)
 * [这几个库让你交互动效满满，告别'静态'时代](https://juejin.im/post/5decdb00518825124e13d87b)
@@ -85,11 +97,11 @@ sidebar: auto
 * [经典面试题：从 URL 输入到页面展现到底发生什么？](https://zhuanlan.zhihu.com/p/57895541)
 * [【译】Google 官方文章——如何去做code review](https://juejin.im/post/5d80c27cf265da03e61b45c7)
 
-## Flutter
+### Flutter
 
 * [Flutter完整开发实战详解(一、Dart语言和Flutter基础) | 掘金技术征文](https://juejin.im/post/5b631d326fb9a04fce524db2)
 
-## 微前端
+### 微前端
 
 * [前端微服务化解决方案2 - Single-SPA](https://alili.tech/archive/11052bf4/)
 * [每日优鲜供应链前端团队微前端改造](https://juejin.im/post/5d7f702ce51d4561f777e258)
