@@ -9,6 +9,7 @@ sidebar: auto
 
 * [书到用时方恨少，一大波JS开发工具函数来了](https://juejin.im/post/5e6cf42bf265da57397e3694?utm_source=gold_browser_extension#heading-47)
 * [记好这 24 个 ES6 方法，用来解决实际开发的 JS 问题](https://juejin.im/post/5e5ef2f9f265da57685dc9c1)
+* [建议星星】要就来45道Promise面试题一次爽到底(1.1w字用心整理)](https://juejin.im/post/5e58c618e51d4526ed66b5cf#comment)
 
 ### CSS
 
