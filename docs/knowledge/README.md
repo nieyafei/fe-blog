@@ -58,6 +58,7 @@ sidebar: auto
 * [在 JavaScript ES6+ 中从零开始学习函数式编程&组合式软件编写系列译文](https://juejin.im/post/5a0275406fb9a04506710bbc)
 * [50行代码的MVVM，感受闭包的艺术](https://juejin.im/post/5b1fa77451882513ea5cc2ca)
 * [嘿，不要给 async 函数写那么多 try/catch 了](https://juejin.im/post/5d25b39bf265da1bb67a4176)
+* [一文深度剖析Axios源码](https://mp.weixin.qq.com/s/QzTD0bGMC77x66kALYmQbA)
 
 ### React
 
