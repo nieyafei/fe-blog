@@ -18,9 +18,13 @@ sidebar: auto
 
 ### 综合
 
+* [阿里前端攻城狮们写了一份前端面试题答案，请查收](https://juejin.im/post/5e7426d15188254967069c00)
 * [前端需要了解的计算机网络知识](https://juejin.im/post/5e51febde51d4526c932b390)
 * [字节跳动面试官：请你实现一个大文件上传和断点续传](https://juejin.im/post/5dff8a26e51d4558105420ed)
 * [迈向 Tech Lead 之路](https://www.phodal.com/blog/path-to-tech-lead/)
+* [2020年前端面试复习必读文章【超百篇文章/赠复习导图】](https://juejin.im/post/5e8b163ff265da47ee3f54a6)
+* [（建议精读）HTTP灵魂之问，巩固你的 HTTP 知识体系](https://juejin.im/post/5e76bd516fb9a07cce750746)
+* [2万字 | 前端基础拾遗90问](https://juejin.im/post/5e8b261ae51d4546c0382ab4)
 
 ## 2019年度
 
