@@ -4,6 +4,7 @@
  */
 
 module.exports = [
+  '/javascript/ES特性.md',
   '/javascript/正则表达式.md',
   '/javascript/工具函数.md',
   '/javascript/源码实现.md',
