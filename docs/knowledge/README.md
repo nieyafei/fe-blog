@@ -10,6 +10,7 @@ sidebar: auto
 * [书到用时方恨少，一大波JS开发工具函数来了](https://juejin.im/post/5e6cf42bf265da57397e3694?utm_source=gold_browser_extension#heading-47)
 * [记好这 24 个 ES6 方法，用来解决实际开发的 JS 问题](https://juejin.im/post/5e5ef2f9f265da57685dc9c1)
 * [建议星星】要就来45道Promise面试题一次爽到底(1.1w字用心整理)](https://juejin.im/post/5e58c618e51d4526ed66b5cf#comment)
+* [想自学JS吗？想提升JS底层原理吗？76张脑图带你彻底搞懂原生JS](https://juejin.im/post/5ebb68796fb9a0435432df8e)
 
 ### CSS
 
@@ -25,6 +26,7 @@ sidebar: auto
 * [2020年前端面试复习必读文章【超百篇文章/赠复习导图】](https://juejin.im/post/5e8b163ff265da47ee3f54a6)
 * [（建议精读）HTTP灵魂之问，巩固你的 HTTP 知识体系](https://juejin.im/post/5e76bd516fb9a07cce750746)
 * [2万字 | 前端基础拾遗90问](https://juejin.im/post/5e8b261ae51d4546c0382ab4)
+* [Chrome DevTools中的这些骚操作，你都知道吗？](https://juejin.im/post/5ec338436fb9a0432d76e0c4)
 
 ## 2019年度
 
