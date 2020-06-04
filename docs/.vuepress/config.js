@@ -52,9 +52,7 @@ module.exports = {
         text: '快链', 
         items: [
           { text: '前端Demo特效收集', link: 'http://codehtml.cn/front-end-demo/#/' },
-          { text: '前端面试HTML题目收集', link: 'http://codehtml.cn/front-end-interview-html/#/' },
-          { text: '前端面试CSS题目收集', link: 'http://codehtml.cn/front-end-interview-css/#/' },
-          { text: '前端面试JS题目收集', link: 'http://codehtml.cn/front-end-interview-js/#/' }
+          { text: '前端面试题目收集', link: 'http://codehtml.cn/front-end-interview' }
         ]
       },
       { text: 'Github', link: 'https://github.com/nieyafei/fe-blog' },
