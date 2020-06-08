@@ -3,10 +3,10 @@ home: true
 heroImage: /image/logo.png
 heroText: 前端蜗牛
 tagline: 前端知识总结收集
-actionText: 我的博客 →
-actionLink: http://codehtml.cn/
 footer: MIT Licensed | Copyright © 2019
 ---
+<!-- actionText: 我的博客 →
+actionLink: http://codehtml.cn/ -->
 <div class="features">
   <a class="feature" href="knowledge/">
     <h2>知识资料收集</h2>
