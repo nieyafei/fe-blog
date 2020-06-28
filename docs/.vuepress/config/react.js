@@ -10,5 +10,7 @@ module.exports = [
   '/react/createRef.md',
   '/react/forwardRef.md',
   '/react/Context.md',
-  '/react/ConcurrentMode.md'
+  '/react/ConcurrentMode.md',
+  '/react/React.lazy.md',
+  '/react/Suspense.md'
 ]
