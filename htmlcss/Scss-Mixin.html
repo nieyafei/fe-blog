@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Scss Mixin | 前端蜗牛</title>
+    <meta name="description" content="一直在路上的前端蜗牛">
+    <link rel="icon" href="/fe-blog/favicon.ico">
+    
+    <link rel="preload" href="/fe-blog/assets/css/0.styles.bd0f492f.css" as="style"><link rel="preload" href="/fe-blog/assets/js/app.bb68b493.js" as="script"><link rel="preload" href="/fe-blog/assets/js/2.8f84adda.js" as="script"><link rel="preload" href="/fe-blog/assets/js/14.03cf78a0.js" as="script"><link rel="preload" href="/fe-blog/assets/js/3.8a3a42eb.js" as="script"><link rel="prefetch" href="/fe-blog/assets/js/10.c5aad11a.js"><link rel="prefetch" href="/fe-blog/assets/js/11.adbd4576.js"><link rel="prefetch" href="/fe-blog/assets/js/12.ea7179e0.js"><link rel="prefetch" href="/fe-blog/assets/js/13.1edc4bcf.js"><link rel="prefetch" href="/fe-blog/assets/js/15.07d3ad32.js"><link rel="prefetch" href="/fe-blog/assets/js/16.e0db1e6b.js"><link rel="prefetch" href="/fe-blog/assets/js/17.64ca41ca.js"><link rel="prefetch" href="/fe-blog/assets/js/18.b8fd690b.js"><link rel="prefetch" href="/fe-blog/assets/js/19.64608846.js"><link rel="prefetch" href="/fe-blog/assets/js/20.6068ef95.js"><link rel="prefetch" href="/fe-blog/assets/js/21.595cdc6f.js"><link rel="prefetch" href="/fe-blog/assets/js/22.cea49a7c.js"><link rel="prefetch" href="/fe-blog/assets/js/23.4d7b642d.js"><link rel="prefetch" href="/fe-blog/assets/js/24.26cf627f.js"><link rel="prefetch" href="/fe-blog/assets/js/25.5bdd9d89.js"><link rel="prefetch" href="/fe-blog/assets/js/26.df0a3dc0.js"><link rel="prefetch" href="/fe-blog/assets/js/27.51b94e25.js"><link rel="prefetch" href="/fe-blog/assets/js/28.d64c0ddb.js"><link rel="prefetch" href="/fe-blog/assets/js/29.e20ec9d9.js"><link rel="prefetch" href="/fe-blog/assets/js/30.8e2a4bd9.js"><link rel="prefetch" href="/fe-blog/assets/js/31.22525827.js"><link rel="prefetch" href="/fe-blog/assets/js/32.90d0f113.js"><link rel="prefetch" href="/fe-blog/assets/js/33.13ad921c.js"><link rel="prefetch" href="/fe-blog/assets/js/34.bab20369.js"><link rel="prefetch" href="/fe-blog/assets/js/35.c88941b6.js"><link rel="prefetch" href="/fe-blog/assets/js/36.4816e111.js"><link rel="prefetch" href="/fe-blog/assets/js/37.90d0f6e1.js"><link rel="prefetch" href="/fe-blog/assets/js/38.780cb465.js"><link rel="prefetch" href="/fe-blog/assets/js/39.dbca534d.js"><link rel="prefetch" href="/fe-blog/assets/js/4.6c81e761.js"><link rel="prefetch" href="/fe-blog/assets/js/40.08dd5033.js"><link rel="prefetch" href="/fe-blog/assets/js/41.36fe1623.js"><link rel="prefetch" href="/fe-blog/assets/js/42.f75b419e.js"><link rel="prefetch" href="/fe-blog/assets/js/43.4228cd37.js"><link rel="prefetch" href="/fe-blog/assets/js/44.2c06116c.js"><link rel="prefetch" href="/fe-blog/assets/js/45.d35cbee2.js"><link rel="prefetch" href="/fe-blog/assets/js/5.d6c3c20a.js"><link rel="prefetch" href="/fe-blog/assets/js/6.6d809350.js"><link rel="prefetch" href="/fe-blog/assets/js/7.f3dc5c9a.js"><link rel="prefetch" href="/fe-blog/assets/js/8.042282d7.js"><link rel="prefetch" href="/fe-blog/assets/js/9.ce78e9a8.js">
+    <link rel="stylesheet" href="/fe-blog/assets/css/0.styles.bd0f492f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/fe-blog/" class="home-link router-link-active"><!----> <span class="site-name">前端蜗牛</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/fe-blog/compre/word/" class="nav-link">前端词汇</a></div><div class="nav-item"><a href="/fe-blog/leetcode/" class="nav-link">LeetCode</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">代码片段</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/fe-blog/htmlcss/" class="nav-link router-link-active">Html、Css</a></li><li class="dropdown-item"><!----> <a href="/fe-blog/javascript/" class="nav-link">Javascript</a></li><li class="dropdown-item"><!----> <a href="/fe-blog/react/" class="nav-link">React</a></li><li class="dropdown-item"><!----> <a href="/fe-blog/vue/" class="nav-link">Vue</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">快链</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="http://codehtml.cn/front-end-demo/#/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  前端Demo特效收集
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="http://codehtml.cn/front-end-interview" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  前端面试题目收集
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><a href="https://github.com/nieyafei/fe-blog" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/fe-blog/compre/word/" class="nav-link">前端词汇</a></div><div class="nav-item"><a href="/fe-blog/leetcode/" class="nav-link">LeetCode</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">代码片段</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/fe-blog/htmlcss/" class="nav-link router-link-active">Html、Css</a></li><li class="dropdown-item"><!----> <a href="/fe-blog/javascript/" class="nav-link">Javascript</a></li><li class="dropdown-item"><!----> <a href="/fe-blog/react/" class="nav-link">React</a></li><li class="dropdown-item"><!----> <a href="/fe-blog/vue/" class="nav-link">Vue</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">快链</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="http://codehtml.cn/front-end-demo/#/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  前端Demo特效收集
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="http://codehtml.cn/front-end-interview" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  前端面试题目收集
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><a href="https://github.com/nieyafei/fe-blog" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/fe-blog/htmlcss/文本溢出截断省略.html" class="sidebar-link">文本溢出截断省略</a></li><li><a href="/fe-blog/htmlcss/滚动条样式.html" class="sidebar-link">滚动条样式</a></li><li><a href="/fe-blog/htmlcss/禁用系列.html" class="sidebar-link">禁用系列</a></li><li><a href="/fe-blog/htmlcss/Scss-Mixin.html" class="active sidebar-link">Scss Mixin</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/fe-blog/htmlcss/Scss-Mixin.html#溢出显示省略号" class="sidebar-link">溢出显示省略号</a></li><li class="sidebar-sub-header"><a href="/fe-blog/htmlcss/Scss-Mixin.html#真-1px边框" class="sidebar-link">真.1px边框</a></li><li class="sidebar-sub-header"><a href="/fe-blog/htmlcss/Scss-Mixin.html#等边三角形" class="sidebar-link">等边三角形</a></li><li class="sidebar-sub-header"><a href="/fe-blog/htmlcss/Scss-Mixin.html#简单loading" class="sidebar-link">简单loading</a></li><li class="sidebar-sub-header"><a href="/fe-blog/htmlcss/Scss-Mixin.html#棋盘" class="sidebar-link">棋盘</a></li><li class="sidebar-sub-header"><a href="/fe-blog/htmlcss/Scss-Mixin.html#文本不换行" class="sidebar-link">文本不换行</a></li><li class="sidebar-sub-header"><a href="/fe-blog/htmlcss/Scss-Mixin.html#透明度" class="sidebar-link">透明度</a></li><li class="sidebar-sub-header"><a href="/fe-blog/htmlcss/Scss-Mixin.html#清除浮动" class="sidebar-link">清除浮动</a></li><li class="sidebar-sub-header"><a href="/fe-blog/htmlcss/Scss-Mixin.html#毛玻璃效果" class="sidebar-link">毛玻璃效果</a></li><li class="sidebar-sub-header"><a href="/fe-blog/htmlcss/Scss-Mixin.html#滤镜-将彩色照片显示为黑白照片、保留图片层次" class="sidebar-link">滤镜: 将彩色照片显示为黑白照片、保留图片层次</a></li></ul></li><li><a href="/fe-blog/htmlcss/强制换行、自动换行、强制不换行.html" class="sidebar-link">强制换行/自动换行/强制不换行</a></li><li><a href="/fe-blog/htmlcss/:empty伪类.html" class="sidebar-link">:empty伪类使用</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="scss-mixin"><a href="#scss-mixin" aria-hidden="true" class="header-anchor">#</a> Scss Mixin</h1> <h2 id="溢出显示省略号"><a href="#溢出显示省略号" aria-hidden="true" class="header-anchor">#</a> 溢出显示省略号</h2> <div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/**
+* 溢出省略号
+* @param {Number} 行数
+*/</span>
+<span class="token atrule"><span class="token rule">@mixin</span> <span class="token function">ellipsis</span><span class="token punctuation">(</span>$<span class="token property">rowCount</span><span class="token punctuation">:</span> 1<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+  <span class="token atrule"><span class="token rule">@if</span> $rowCount &lt;=1</span> <span class="token punctuation">{</span>
+    <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+    <span class="token property">text-overflow</span><span class="token punctuation">:</span> ellipsis<span class="token punctuation">;</span>
+    <span class="token property">white-space</span><span class="token punctuation">:</span> nowrap<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token atrule"><span class="token rule">@else</span></span> <span class="token punctuation">{</span>
+    <span class="token property">min-width</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+    <span class="token property">text-overflow</span><span class="token punctuation">:</span> ellipsis<span class="token punctuation">;</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> -webkit-box<span class="token punctuation">;</span>
+    <span class="token property">-webkit-line-clamp</span><span class="token punctuation">:</span> $rowCount<span class="token punctuation">;</span>
+    <span class="token property">-webkit-box-orient</span><span class="token punctuation">:</span> vertical<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="真-1px边框"><a href="#真-1px边框" aria-hidden="true" class="header-anchor">#</a> 真.1px边框</h2> <div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/**
+* 真.1px边框
+* {List}: 多个方向边框, 默认值为bottom, 你可以根据需要传入(top, left, bottom, right) 4个方向;
+* {Color} 边框的颜色, 默认#ccc;
+* {List} 4个圆角半径, 默认0;
+* {String} 一个高级设置, 一般都不需要改动, 由于细边框的实现使用了css的伪类, 所以为了规避可能出现的样式冲突, 我们可以自己指定使用:after还是:before, 默认after;
+*/</span>
+<span class="token atrule"><span class="token rule">@mixin</span> <span class="token function">thinBorder</span><span class="token punctuation">(</span>
+  $<span class="token property">directionMaps</span><span class="token punctuation">:</span> bottom<span class="token punctuation">,</span>
+  $<span class="token property">color</span><span class="token punctuation">:</span> #ccc<span class="token punctuation">,</span>
+  $<span class="token property">radius</span><span class="token punctuation">:</span> <span class="token punctuation">(</span>
+    0<span class="token punctuation">,</span>
+    0<span class="token punctuation">,</span>
+    0<span class="token punctuation">,</span>
+    0
+  <span class="token punctuation">)</span><span class="token punctuation">,</span>
+  $<span class="token property">position</span><span class="token punctuation">:</span> after
+<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+  // 是否只有一个方向
+  $<span class="token property">isOnlyOneDir</span><span class="token punctuation">:</span> string==<span class="token function">type-of</span><span class="token punctuation">(</span>$directionMaps<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token atrule"><span class="token rule">@if</span> <span class="token punctuation">(</span>$isOnlyOneDir<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    $<span class="token property">directionMaps</span><span class="token punctuation">:</span> <span class="token punctuation">(</span>$directionMaps<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token atrule"><span class="token rule">@each</span> $directionMap in $directionMaps</span> <span class="token punctuation">{</span>
+    <span class="token selector">border-#</span><span class="token punctuation">{</span>$directionMap<span class="token punctuation">}</span><span class="token punctuation">:</span> 1px solid $color<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  // 判断圆角是list还是number
+  <span class="token atrule"><span class="token rule">@if</span> <span class="token punctuation">(</span>list==<span class="token function">type-of</span><span class="token punctuation">(</span>$radius<span class="token punctuation">)</span><span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token property">border-radius</span><span class="token punctuation">:</span> <span class="token function">nth</span><span class="token punctuation">(</span>$radius<span class="token punctuation">,</span> 1<span class="token punctuation">)</span>
+      <span class="token function">nth</span><span class="token punctuation">(</span>$radius<span class="token punctuation">,</span> 2<span class="token punctuation">)</span>
+      <span class="token function">nth</span><span class="token punctuation">(</span>$radius<span class="token punctuation">,</span> 3<span class="token punctuation">)</span>
+      <span class="token function">nth</span><span class="token punctuation">(</span>$radius<span class="token punctuation">,</span> 4<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token atrule"><span class="token rule">@else</span></span> <span class="token punctuation">{</span>
+    <span class="token property">border-radius</span><span class="token punctuation">:</span> $radius<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token atrule"><span class="token rule">@media</span> only screen and <span class="token punctuation">(</span><span class="token property">-webkit-min-device-pixel-ratio</span><span class="token punctuation">:</span> 2<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token selector">&amp;</span> <span class="token punctuation">{</span>
+      <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+
+      // 删除1像素密度比下的边框
+      <span class="token atrule"><span class="token rule">@each</span> $directionMap in $directionMaps</span> <span class="token punctuation">{</span>
+        <span class="token selector">border-#</span><span class="token punctuation">{</span>$directionMap<span class="token punctuation">}</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token selector">&amp;:#</span><span class="token punctuation">{</span>$position<span class="token punctuation">}</span> <span class="token punctuation">{</span>
+      <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">;</span>
+      <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+      <span class="token property">top</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+      <span class="token property">left</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+      <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+      <span class="token property">width</span><span class="token punctuation">:</span> 200%<span class="token punctuation">;</span>
+      <span class="token property">height</span><span class="token punctuation">:</span> 200%<span class="token punctuation">;</span>
+      <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">scale</span><span class="token punctuation">(</span>0.5<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token property">box-sizing</span><span class="token punctuation">:</span> border-box<span class="token punctuation">;</span>
+      <span class="token property">padding</span><span class="token punctuation">:</span> 1px<span class="token punctuation">;</span>
+      <span class="token property">transform-origin</span><span class="token punctuation">:</span> 0 0<span class="token punctuation">;</span>
+      <span class="token property">pointer-events</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+      <span class="token property">border</span><span class="token punctuation">:</span> 0 solid $color<span class="token punctuation">;</span>
+
+      <span class="token atrule"><span class="token rule">@each</span> $directionMap in $directionMaps</span> <span class="token punctuation">{</span>
+        <span class="token selector">border-#</span><span class="token punctuation">{</span>$directionMap<span class="token punctuation">}</span><span class="token property">-width</span><span class="token punctuation">:</span> 1px<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+
+      // 判断圆角是list还是number
+      <span class="token atrule"><span class="token rule">@if</span> <span class="token punctuation">(</span>list==<span class="token function">type-of</span><span class="token punctuation">(</span>$radius<span class="token punctuation">)</span><span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+        <span class="token property">border-radius</span><span class="token punctuation">:</span> <span class="token function">nth</span><span class="token punctuation">(</span>$radius<span class="token punctuation">,</span> 1<span class="token punctuation">)</span> *
+          2
+          <span class="token function">nth</span><span class="token punctuation">(</span>$radius<span class="token punctuation">,</span> 2<span class="token punctuation">)</span> *
+          2
+          <span class="token function">nth</span><span class="token punctuation">(</span>$radius<span class="token punctuation">,</span> 3<span class="token punctuation">)</span> *
+          2
+          <span class="token function">nth</span><span class="token punctuation">(</span>$radius<span class="token punctuation">,</span> 4<span class="token punctuation">)</span> *
+          2<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span> <span class="token atrule"><span class="token rule">@else</span></span> <span class="token punctuation">{</span>
+        <span class="token property">border-radius</span><span class="token punctuation">:</span> $radius * 2<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token atrule"><span class="token rule">@media</span> only screen and <span class="token punctuation">(</span><span class="token property">-webkit-min-device-pixel-ratio</span><span class="token punctuation">:</span> 3<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token selector">&amp;:#</span><span class="token punctuation">{</span>$position<span class="token punctuation">}</span> <span class="token punctuation">{</span>
+      // 判断圆角是list还是number
+      <span class="token atrule"><span class="token rule">@if</span> <span class="token punctuation">(</span>list==<span class="token function">type-of</span><span class="token punctuation">(</span>$radius<span class="token punctuation">)</span><span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+        <span class="token property">border-radius</span><span class="token punctuation">:</span> <span class="token function">nth</span><span class="token punctuation">(</span>$radius<span class="token punctuation">,</span> 1<span class="token punctuation">)</span> *
+          3
+          <span class="token function">nth</span><span class="token punctuation">(</span>$radius<span class="token punctuation">,</span> 2<span class="token punctuation">)</span> *
+          3
+          <span class="token function">nth</span><span class="token punctuation">(</span>$radius<span class="token punctuation">,</span> 3<span class="token punctuation">)</span> *
+          3
+          <span class="token function">nth</span><span class="token punctuation">(</span>$radius<span class="token punctuation">,</span> 4<span class="token punctuation">)</span> *
+          3<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span> <span class="token atrule"><span class="token rule">@else</span></span> <span class="token punctuation">{</span>
+        <span class="token property">border-radius</span><span class="token punctuation">:</span> $radius * 3<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+
+      <span class="token property">width</span><span class="token punctuation">:</span> 300%<span class="token punctuation">;</span>
+      <span class="token property">height</span><span class="token punctuation">:</span> 300%<span class="token punctuation">;</span>
+      <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">scale</span><span class="token punctuation">(</span>0.3333<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="等边三角形"><a href="#等边三角形" aria-hidden="true" class="header-anchor">#</a> 等边三角形</h2> <div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/**
+* 等边三角形
+* @param {String} 尺寸
+* @param {Color} 颜色
+* @param {String} 方向
+*/</span>
+<span class="token atrule"><span class="token rule">@mixin</span> <span class="token function">triangle</span><span class="token punctuation">(</span>$<span class="token property">size</span><span class="token punctuation">:</span> 5px<span class="token punctuation">,</span> $<span class="token property">color</span><span class="token punctuation">:</span> <span class="token function">rgba</span><span class="token punctuation">(</span>0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0.6<span class="token punctuation">)</span><span class="token punctuation">,</span> $<span class="token property">dir</span><span class="token punctuation">:</span> bottom<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token property">border-style</span><span class="token punctuation">:</span> solid<span class="token punctuation">;</span>
+
+  <span class="token atrule"><span class="token rule">@if</span> <span class="token punctuation">(</span>bottom==$dir<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token property">border-width</span><span class="token punctuation">:</span> $size $size 0 $size<span class="token punctuation">;</span>
+    <span class="token property">border-color</span><span class="token punctuation">:</span> $color transparent transparent transparent<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token atrule"><span class="token rule">@else</span> if <span class="token punctuation">(</span>top==$dir<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token property">border-width</span><span class="token punctuation">:</span> 0 $size $size $size<span class="token punctuation">;</span>
+    <span class="token property">border-color</span><span class="token punctuation">:</span> transparent transparent $color transparent<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token atrule"><span class="token rule">@else</span> if <span class="token punctuation">(</span>right==$dir<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token property">border-width</span><span class="token punctuation">:</span> $size 0 $size $size<span class="token punctuation">;</span>
+    <span class="token property">border-color</span><span class="token punctuation">:</span> transparent transparent transparent $color<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token atrule"><span class="token rule">@else</span> if <span class="token punctuation">(</span>left==$dir<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token property">border-width</span><span class="token punctuation">:</span> $size $size $size 0<span class="token punctuation">;</span>
+    <span class="token property">border-color</span><span class="token punctuation">:</span> transparent $color transparent transparent<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="简单loading"><a href="#简单loading" aria-hidden="true" class="header-anchor">#</a> 简单loading</h2> <div class="language-css extra-class"><pre class="language-css"><code><span class="token atrule"><span class="token rule">@mixin</span> <span class="token function">loading-half-circle</span><span class="token punctuation">(</span>$<span class="token property">width</span><span class="token punctuation">:</span> 1em<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> $width<span class="token punctuation">;</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> $width<span class="token punctuation">;</span>
+  <span class="token property">border-radius</span><span class="token punctuation">:</span> $width<span class="token punctuation">;</span>
+  <span class="token property">border-style</span><span class="token punctuation">:</span> solid<span class="token punctuation">;</span>
+  <span class="token property">border-width</span><span class="token punctuation">:</span> $width/10<span class="token punctuation">;</span>
+  <span class="token property">border-color</span><span class="token punctuation">:</span> transparent currentColor transparent transparent<span class="token punctuation">;</span>
+  <span class="token property">animation</span><span class="token punctuation">:</span> rotate 0.6s linear infinite<span class="token punctuation">;</span>
+  <span class="token property">vertical-align</span><span class="token punctuation">:</span> middle<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="棋盘"><a href="#棋盘" aria-hidden="true" class="header-anchor">#</a> 棋盘</h2> <div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/**
+* 棋盘背景
+* @param {Color} 背景色
+*/</span>
+<span class="token atrule"><span class="token rule">@mixin</span> <span class="token function">bgChessboard</span><span class="token punctuation">(</span>$<span class="token property">color</span><span class="token punctuation">:</span> #aaa<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+  <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>
+      45deg<span class="token punctuation">,</span>
+      $color 25%<span class="token punctuation">,</span>
+      transparent 25%<span class="token punctuation">,</span>
+      transparent 75%<span class="token punctuation">,</span>
+      $color 75%<span class="token punctuation">,</span>
+      $color
+    <span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token function">linear-gradient</span><span class="token punctuation">(</span>
+      45deg<span class="token punctuation">,</span>
+      $color 26%<span class="token punctuation">,</span>
+      transparent 26%<span class="token punctuation">,</span>
+      transparent 74%<span class="token punctuation">,</span>
+      $color 74%<span class="token punctuation">,</span>
+      $color
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">background-size</span><span class="token punctuation">:</span> 10vw 10vw<span class="token punctuation">;</span>
+  <span class="token property">background-position</span><span class="token punctuation">:</span> 0 0<span class="token punctuation">,</span> 5vw 5vw<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="文本不换行"><a href="#文本不换行" aria-hidden="true" class="header-anchor">#</a> 文本不换行</h2> <div class="language-css extra-class"><pre class="language-css"><code><span class="token atrule"><span class="token rule">@mixin</span> <span class="token function">no-wrap</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token punctuation">{</span>
+  <span class="token property">text-overflow</span><span class="token punctuation">:</span> ellipsis<span class="token punctuation">;</span>
+  <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+  <span class="token property">white-space</span><span class="token punctuation">:</span> nowrap<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="透明度"><a href="#透明度" aria-hidden="true" class="header-anchor">#</a> 透明度</h2> <div class="language-css extra-class"><pre class="language-css"><code><span class="token atrule"><span class="token rule">@mixin</span> <span class="token function">opacity</span><span class="token punctuation">(</span>$opacity<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token property">opacity</span><span class="token punctuation">:</span> $opacity<span class="token punctuation">;</span>
+    $<span class="token property">opacity-ie</span><span class="token punctuation">:</span> $opacity * 100<span class="token punctuation">;</span>
+    <span class="token property">filter</span><span class="token punctuation">:</span> <span class="token function">alpha</span><span class="token punctuation">(</span>opacity=$opacity-ie<span class="token punctuation">)</span><span class="token punctuation">;</span> //IE8
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="清除浮动"><a href="#清除浮动" aria-hidden="true" class="header-anchor">#</a> 清除浮动</h2> <div class="language-css extra-class"><pre class="language-css"><code><span class="token atrule"><span class="token rule">@mixin</span> <span class="token function">clearfix</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token selector">&amp;:before,
+    &amp;:after</span> <span class="token punctuation">{</span>
+        <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">;</span>
+        <span class="token property">display</span><span class="token punctuation">:</span> table<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token selector">&amp;:after</span> <span class="token punctuation">{</span>
+        <span class="token property">clear</span><span class="token punctuation">:</span> both<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="毛玻璃效果"><a href="#毛玻璃效果" aria-hidden="true" class="header-anchor">#</a> 毛玻璃效果</h2> <div class="language-css extra-class"><pre class="language-css"><code><span class="token atrule"><span class="token rule">@mixin</span> <span class="token function">blur</span><span class="token punctuation">(</span>$<span class="token property">blur</span><span class="token punctuation">:</span> 10px<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+  <span class="token property">-webkit-filter</span><span class="token punctuation">:</span> <span class="token function">blur</span><span class="token punctuation">(</span>$blur<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">-moz-filter</span><span class="token punctuation">:</span> <span class="token function">blur</span><span class="token punctuation">(</span>$blur<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">-o-filter</span><span class="token punctuation">:</span> <span class="token function">blur</span><span class="token punctuation">(</span>$blur<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">-ms-filter</span><span class="token punctuation">:</span> <span class="token function">blur</span><span class="token punctuation">(</span>$blur<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">filter</span><span class="token punctuation">:</span> <span class="token property">progid</span><span class="token punctuation">:</span>DXImageTransform.Microsoft.<span class="token function">Blur</span><span class="token punctuation">(</span>PixelRadius=<span class="token selector">'$</span><span class="token punctuation">{</span>blur<span class="token punctuation">}</span>'<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">filter</span><span class="token punctuation">:</span> <span class="token function">blur</span><span class="token punctuation">(</span>$blur<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  *<span class="token property">zoom</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="滤镜-将彩色照片显示为黑白照片、保留图片层次"><a href="#滤镜-将彩色照片显示为黑白照片、保留图片层次" aria-hidden="true" class="header-anchor">#</a> 滤镜: 将彩色照片显示为黑白照片、保留图片层次</h2> <div class="language-css extra-class"><pre class="language-css"><code><span class="token atrule"><span class="token rule">@mixin</span> <span class="token function">grayscale</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+  <span class="token property">-webkit-filter</span><span class="token punctuation">:</span> <span class="token function">grayscale</span><span class="token punctuation">(</span>100%<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">-moz-filter</span><span class="token punctuation">:</span> <span class="token function">grayscale</span><span class="token punctuation">(</span>100%<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">-ms-filter</span><span class="token punctuation">:</span> <span class="token function">grayscale</span><span class="token punctuation">(</span>100%<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">-o-filter</span><span class="token punctuation">:</span> <span class="token function">grayscale</span><span class="token punctuation">(</span>100%<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">filter</span><span class="token punctuation">:</span> <span class="token function">grayscale</span><span class="token punctuation">(</span>100%<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div> <div class="gitalk-container"><div id="gitalk-container"></div></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">11/26/2019, 3:42:20 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/fe-blog/htmlcss/禁用系列.html" class="prev">禁用系列</a></span> <span class="next"><a href="/fe-blog/htmlcss/强制换行、自动换行、强制不换行.html">强制换行/自动换行/强制不换行</a>→
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/fe-blog/assets/js/app.bb68b493.js" defer></script><script src="/fe-blog/assets/js/2.8f84adda.js" defer></script><script src="/fe-blog/assets/js/14.03cf78a0.js" defer></script><script src="/fe-blog/assets/js/3.8a3a42eb.js" defer></script>
+  </body>
+</html>
