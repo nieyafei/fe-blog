@@ -12,5 +12,6 @@ module.exports = [
   '/react/Context.md',
   '/react/ConcurrentMode.md',
   '/react/React.lazy.md',
-  '/react/Suspense.md'
+  '/react/Suspense.md',
+  '/react/Fiber.md'
 ]
